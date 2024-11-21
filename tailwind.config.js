@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors');
+import colors from 'tailwindcss/colors'
 
 const gray = {
     50: 'hsl(216, 33%, 97%)',
@@ -13,7 +13,7 @@ const gray = {
     900: 'hsl(210, 24%, 16%)',
 };
 
-module.exports = {
+export default {
     content: [
         './resources/scripts/**/*.{js,ts,tsx}',
     ],
